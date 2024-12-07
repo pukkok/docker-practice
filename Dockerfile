@@ -14,7 +14,7 @@ COPY package.json ./
 COPY . .
 
 # 6. 컨테이너 포트 노출
-EXPOSE 3000
+EXPOSE 3690
 
 # 7. 컨테이너 시작 명령어 설정
 CMD ["npm", "start"]
